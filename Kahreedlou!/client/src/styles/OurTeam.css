@@ -1,0 +1,32 @@
+/* OurTeam.css */
+
+.our-team-section {
+    background-color: lightgray;
+    padding: 50px 0;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .team-member {
+    text-align: center;
+
+  }
+  
+  .member-image {
+    width: 150px; /* Adjust the image size as needed */
+    height: 150px;
+  }
+  
+  /* Additional styles for the marquee tag */
+  marquee {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    color:gray; /* Adjust the color as needed */
+    font-size: 20px;
+    font-weight: bold;
+  }
+  

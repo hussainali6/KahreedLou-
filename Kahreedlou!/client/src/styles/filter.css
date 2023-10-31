@@ -1,0 +1,44 @@
+/* Add custom CSS styles here */
+
+.filter-search input {
+    padding: 0.6rem 1rem;
+    width: 100%;
+  }
+  
+  .filter-category {
+    h3 {
+      padding: 2rem 0;
+      font-weight: bold;
+    }
+  
+    button {
+      border: none;
+      background-color: #fff;
+      text-transform: capitalize;
+      cursor: pointer;
+    }
+  
+    button:hover {
+      color: #007bff; /* Bootstrap primary color */
+    }
+  
+    .active {
+      border-bottom: 1px solid #000;
+      color: #007bff;
+    }
+  }
+  
+  .filter-company--select {
+    padding: 0.3rem 1.2rem;
+    font-size: 1.6rem;
+    color: #333; /* Adjust the color as needed */
+    text-transform: capitalize;
+  }
+  
+  .filter-clear .btn {
+    background-color: #ec7063;
+    color: #000;
+  }
+  
+  /* Add more custom styles as needed */
+  

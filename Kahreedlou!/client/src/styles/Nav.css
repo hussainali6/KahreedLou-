@@ -1,0 +1,34 @@
+/* Navbar.css */
+.navbar {
+    background-color: lightgray;
+  }
+  .container{
+    text-decoration: none;
+  }
+  .navbar-brand {
+    color: black;
+    font-size: 24px;
+  }
+  
+  .navbar-nav {
+    justify-content: center;
+  }
+  
+  .nav-link {
+    color: gray;
+    font-size: 18px;
+  }
+  
+  .navbar-icons {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 24px;
+    color: black;
+  }
+  .icon-space {
+    margin-right: 10px; /* Adjust the margin-right value to control the space size */
+  }
+  
+
+  

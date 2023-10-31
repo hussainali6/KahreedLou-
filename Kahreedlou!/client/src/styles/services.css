@@ -1,0 +1,27 @@
+.service-item {
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.service-item:hover {
+  transform: scale(1.05);
+}
+
+.service-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.service-icon {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+@media (max-width: 576px) {
+  .service-item {
+      margin: 0 0 20px 0;
+  }
+}

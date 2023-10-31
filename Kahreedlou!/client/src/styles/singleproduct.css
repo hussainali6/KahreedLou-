@@ -1,0 +1,16 @@
+/* timer.css */
+.discount-timer {
+  background-color: #333; /* Background color for better visibility */
+  color: white;
+  padding: 5px 10px; /* Adjust padding to reduce width */
+  border-radius: 5px;
+  display: inline-block; /* Make it inline to fit its content width */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .discount-timer {
+    padding: 5px; /* Reduce padding further for smaller screens */
+    font-size: 0.9em; /* Reduce font size if needed */
+  }
+}

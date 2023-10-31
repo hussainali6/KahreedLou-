@@ -1,0 +1,38 @@
+/* Footer.css */
+
+.site-footer {
+    background-color: white; /* Change to your desired color */
+    color:black;
+    padding: 40px 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1)
+  }
+  
+  .site-footer h3 {
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .site-footer p {
+    font-size: 14px;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Align icons to the right */
+  }
+  
+  .social-icons li {
+    margin-right: 10px;
+  }
+  
+  .social-icons a {
+    color:black;
+    font-size: 24px;
+  }
+  
+  .social-icons a:hover {
+    color: red;
+  }
+  

@@ -1,0 +1,68 @@
+/* AdminDashboard.css */
+
+/* Sidebar styling */
+#sidebar-wrapper {
+    min-height: 100vh;
+    width: 250px;
+    background-color: #333; /* Change the background color to your preference */
+    color: #fff; /* Text color for sidebar */
+    position: fixed;
+    transition: all 0.3s ease;
+  }
+  
+  #sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  #sidebar-wrapper .list-group {
+    padding: 1rem; /* Add spacing between sidebar items */
+  }
+  
+  #sidebar-wrapper .list-group-item {
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #333; /* Text color for sidebar items */
+  }
+  
+  /* Toggle button styling */
+  #sidebarCollapse {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+    background-color: #333; /* Change the background color to match the sidebar */
+    color: #fff; /* Text color for the button */
+    border: none;
+  }
+  
+  /* Main content styling */
+  #page-content-wrapper {
+    margin-left: 250px; /* Adjust margin to create separation from the sidebar */
+    transition: all 0.3s ease;
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  /* Add a media query for responsiveness */
+  @media (max-width: 768px) {
+    #sidebar-wrapper {
+      width: 0;
+    }
+  
+    #page-content-wrapper {
+      margin-left: 0;
+    }
+  
+    .toggled #sidebar-wrapper {
+      width: 250px;
+    }
+  }
+  
+  /* Additional styles for responsiveness */
+  @media (max-width: 576px) {
+    #sidebarCollapse {
+      display: none;
+    }
+  }
+  

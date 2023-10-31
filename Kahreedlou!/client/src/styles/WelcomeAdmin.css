@@ -1,0 +1,19 @@
+.welcome-admin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .admin-icon {
+    font-size: 3rem;
+  }
+  
+  .welcome-text {
+    font-size: 1.5rem;
+    margin-top: 16px; 
+    text-align: center;
+    font-weight: bold;
+  }
+  

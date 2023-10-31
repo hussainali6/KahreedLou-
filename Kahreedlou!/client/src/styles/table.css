@@ -1,0 +1,75 @@
+/* adminview.css */
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .product-table th, .product-table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd; /* Add borders to table cells */
+  }
+  
+  .product-table th {
+    background-color: #f2f2f2; /* Set a background color for table headers */
+  }
+  
+  .product-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row background color */
+  }
+  
+  .product-table tbody tr:hover {
+    background-color: #e0e0e0; /* Hover effect for rows */
+  }
+  
+  /* Customize button styles */
+  .btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+/* adminview.css */
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-table th, .product-table td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ddd; /* Add borders to table cells */
+}
+
+.product-table th {
+  background-color: #f2f2f2; /* Set a background color for table headers */
+}
+
+.product-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Alternate row background color */
+}
+
+.product-table tbody tr:hover {
+  background-color: #e0e0e0; /* Hover effect for rows */
+}
+
+/* Customize button styles */
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+  

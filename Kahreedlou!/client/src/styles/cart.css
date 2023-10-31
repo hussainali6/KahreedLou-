@@ -1,0 +1,29 @@
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid gray;
+  background-color: lightgray;
+}
+
+th, td {
+
+  padding: 10px;
+  text-align: left;
+  border: 2px solid gray;
+}
+
+/* Order Summary Styles */
+.cart-summary {
+  
+  padding: 10px;
+  border: 2px solid gray;
+  background-color: lightgray;
+}
+
+/* Cart Buttons Styles */
+.cart-buttons {
+  display: flex;
+  justify-content: space-between;
+  
+}
